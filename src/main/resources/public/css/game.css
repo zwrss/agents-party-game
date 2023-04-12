@@ -1,0 +1,99 @@
+.Row {
+  width: 100%;
+  height: 16%;
+  display: flex;
+  justify-content: center;
+}
+
+.Gameboard {
+  width: 100%;
+  height: 100%;
+}
+
+.Form {
+  width: 99%;
+  height: 99%;
+  position: relative;
+  margin: 1px;
+}
+
+.FormData {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.Cell {
+  width: 19%;
+  height: 99%;
+  border: 10px solid black;
+  border-radius: 15px;
+  position: relative;
+  margin: 1px;
+}
+
+.Cell p {
+   margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.Unrevealed {
+  border-color: gray;
+  background-color: white;
+  color: black;
+}
+
+.RedUnrevealed {
+  border-color: red;
+  background-color: white;
+  color: black;
+}
+
+.BlueUnrevealed {
+  border-color: blue;
+  background-color: white;
+  color: black;
+}
+
+.BlackUnrevealed {
+  border-color: black;
+  background-color: black;
+  color: white;
+}
+
+.Blank {
+  border-color: gray;
+  background-color: gray;
+  color: white;
+}
+
+.Red {
+  border-color: red;
+  background-color: red;
+  color: white;
+}
+
+.Blue {
+  border-color: blue;
+  background-color: blue;
+  color: white;
+}
+
+.Black {
+  border-color: gray;
+  background-color: black;
+  color: white;
+}
